@@ -1,0 +1,59 @@
+{
+  "name": "AI Social Media Agent",
+  "short_name": "SocialAgent",
+  "version": "1.0.0",
+  "description": "An Agentic AI application that analyzes social media trends, generates content, predicts engagement, and provides real-time insights using IBM Orchestrate, IBM Langflow, and IBM Granite Models.",
+  "author": "Your Team Name",
+  "license": "MIT",
+  "homepage": "./",
+  "theme": {
+    "primaryColor": "#0F62FE",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#161616"
+  },
+  "technologies": [
+    "IBM Orchestrate",
+    "IBM Langflow",
+    "IBM Granite Models",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "features": [
+    "Multi-platform social media monitoring",
+    "AI-powered caption generation",
+    "Trend and hashtag prediction",
+    "Sentiment analysis",
+    "Competitor analysis",
+    "Best posting time recommendation",
+    "Real-time analytics dashboard"
+  ],
+  "agents": [
+    {
+      "name": "Trend Agent",
+      "description": "Monitors trending hashtags and viral topics."
+    },
+    {
+      "name": "Content Agent",
+      "description": "Generates posts, captions, and campaign ideas."
+    },
+    {
+      "name": "Analytics Agent",
+      "description": "Performs sentiment analysis and engagement prediction."
+    },
+    {
+      "name": "Scheduler Agent",
+      "description": "Recommends the optimal posting schedule."
+    }
+  ],
+  "supportedPlatforms": [
+    "Instagram",
+    "Facebook",
+    "LinkedIn",
+    "X"
+  ],
+  "database": {
+    "type": "MongoDB"
+  },
+  "status": "active"
+}
